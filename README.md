@@ -232,6 +232,7 @@ result_df.to_csv(r'predicted_salaries.csv', index=False)
 print("Predictions saved to 'predicted_salaries.csv'")
 ```
 ![Epochs](https://github.com/michael-5196/Data_Science_Salaries_Project/assets/131683141/5b181202-fcb1-4c01-af6b-d371374eae37)
+
 Epochs slowed down as we approached 200 but from the screenshot we can still see that it is learning and we have not overfit anything. 
 
 # Summary
