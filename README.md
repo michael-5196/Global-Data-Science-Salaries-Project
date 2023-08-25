@@ -234,3 +234,24 @@ print("Predictions saved to 'predicted_salaries.csv'")
 ![Epochs](https://github.com/michael-5196/Data_Science_Salaries_Project/assets/131683141/5b181202-fcb1-4c01-af6b-d371374eae37)
 Epochs slowed down as we approached 200 but from the screenshot we can still see that it is learning and we have not overfit anything. 
 
+# Summary
+LSTM Prediction for Data Analyst Salary: The LSTM model has predicted a salary of $85,115 for a Data Analyst for the upcoming period (presumably for 2024). This prediction is based on the past data trends and is reflective of the pattern observed in previous years.
+
+### Average Salaries by Title (Descending Order): 
+By having the average salaries sorted in descending order, you can quickly identify which job titles are the most lucrative in the field of data science. The order will help stakeholders understand the hierarchy of roles in terms of remuneration.
+
+### Heatmap with Salary Numbers Displayed: 
+
+A heatmap provides a visual representation of data where individual values are represented as colors. If the heatmap is based on job titles against years (or any other variable), then:
+-Darker or warmer colors would signify higher salaries, and vice-versa.
+
+-It gives a visual insight into how different job titles have changed in terms of remuneration over time or across different variables.
+
+-By displaying the actual salary numbers on the heatmap, you're adding a layer of clarity. Stakeholders won't just rely on the color gradient but will have exact figures for precision.
+
+### Insights:
+-Role Value Proposition: The descending list of salaries by title indicates the market value of each role. It's an excellent reference for those aiming to transition roles or negotiate salaries. Companies can also use this to position their salary offerings competitively.
+
+-Future of Data Analyst Role: The predicted salary for Data Analysts suggests a steady or increasing trend. This forecasted value might be compared with previous years to ascertain the growth rate and project future trends. If the LSTM-predicted value shows a considerable increase, it might be indicative of a growing demand for data analysts.
+
+-Comparative Analysis: With the LSTM prediction and average salaries at hand, one can see how the predicted salary aligns with the current industry averages. If the predicted salary is higher than the current average, it might suggest positive growth in the Data Analyst role.
