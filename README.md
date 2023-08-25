@@ -23,9 +23,7 @@ Are there specific job titles or countries that have unusually high or low salar
 
 -Create a heatmap showing average salaries by country and job title.
 
--Box plots to show the distribution of salaries for different job titles.
-
--Bar graphs to showcase countries with the highest and lowest growth rates.
+-Interactive Bar Graph to show the distribution of salaries for different job titles.
 
 # Result in Tableau:
 ![interactive-dash](https://github.com/michael-5196/Data_Science_Salaries_Project/assets/131683141/db105e47-28c1-40ef-a170-43e943a4ca49)
