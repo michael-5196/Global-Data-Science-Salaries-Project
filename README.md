@@ -24,10 +24,11 @@ df.isnull().sum()
 #Collect Summary Stats
 df.describe()
 ```
+![summary](https://github.com/michael-5196/Data_Science_Salaries_Project/assets/131683141/00c29560-2523-420f-88b7-b3b774e6e3ac)
+
 ### work_year:
-std: The standard deviation is 0.69 years. This means the data for 'work_year' is very tightly packed around the mean.
-min & max: The data spans from the year 2020 to 2023.
-The 25th, 50th (median), and 75th percentiles indicate that most of the data is centered around 2022 and 2023.
+#### std: The standard deviation is 0.69 years. This means the data for 'work_year' is very tightly packed around the mean.
+#### min & max: The data spans from the year 2020 to 2023.The 25th, 50th (median), and 75th percentiles indicate that most of the data is centered around 2022 and 2023.
 
 ### salary_in_usd:
 std: The standard deviation is 63,022, which is considerably lower than the standard deviation of the 'salary' column. This indicates less variability in USD salaries compared to the original 'salary' column.
