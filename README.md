@@ -17,13 +17,30 @@ df = pd.read_csv('Data Science Salary 2021 to 2023.csv')
 
 df.isnull().sum()
 ```
-![isnull1](https://github.com/michael-5196/Data_Science_Salaries_Project/assets/131683141/24bb256e-b7c9-4728-a08f-806f255fc934)
+![isnull1](https://github.com/michael-5196/Data_Science_Salaries_Project/assets/131683141/345506ce-c358-4d78-9f1b-75f66aa2e9d6)
 
 ## Summary Statistics
 ```
 #Collect Summary Stats
 df.describe()
 ```
+### work_year:
+std: The standard deviation is 0.69 years. This means the data for 'work_year' is very tightly packed around the mean.
+min & max: The data spans from the year 2020 to 2023.
+The 25th, 50th (median), and 75th percentiles indicate that most of the data is centered around 2022 and 2023.
+
+### salary_in_usd:
+std: The standard deviation is 63,022, which is considerably lower than the standard deviation of the 'salary' column. This indicates less variability in USD salaries compared to the original 'salary' column.
+min & max: The range for salaries in USD is from 5,132 to 450,000, which is much narrower than the original 'salary' range.
+25%, 50%, and 75%: The interquartile range is between 95,000 and 175,000, indicating that the middle 50% of salaries in USD lie within this range.
+### Key Takeaways:
+The dataset represents work years from 2020 to 2023 with the majority of data coming from 2022 and 2023.
+
+The 'salary' column has a broad range with some very high values that are likely skewing the mean upwards. It's essential to examine these outliers to determine if they are errors or legitimate high salaries.
+
+When looking at the 'salary_in_usd' column, there's less variability in the salaries. This might indicate that when salaries are normalized to USD, they are more tightly clustered, or it could suggest that the most significant outliers in the 'salary' column are not from the U.S.
+
+Further analysis, such as plotting histograms or box plots, could offer more visual insights into the distribution of these salaries.
 ## Calculating Average Salary based on Title
 ```
 #Calculate Average Salary by Title
