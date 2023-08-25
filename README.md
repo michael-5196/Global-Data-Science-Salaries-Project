@@ -2,13 +2,14 @@
 ## LSTM Prediction and Dashboard
 Tools: Python, Tableau, PANDAS, SciPy, Tensorflow Keras, numpy
 
-## Step 1.
+## Install Libraries
 ```#install necessary libraries 
 pip install pandas scipy numpy tensorflow keras
 ```
 
-## Step 2.
-```#Read data in and look for Null Values
+## Read Data in and search for Null Values
+```
+#Read data in and look for Null Values
 import pandas as pd
 import altair as alt
 import scipy.stats as stats
