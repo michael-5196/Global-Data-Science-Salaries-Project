@@ -92,32 +92,6 @@ Salary_By_Title_sorted = Salary_By_Title.sort_values(by= 'AVG_Salary', ascending
 
 Salary_By_Title_sorted.to_csv(r'AVG_Salary_by_Title_Sorted.csv')
 ```
-## Pearson Correlation between Work Year and Salary
-```
-correlation, p_value = stats.pearsonr(df['work_year'], df['salary_in_usd'])
-
-# Convert the result to a DataFrame
-result_df = pd.DataFrame({
-    'correlation': [correlation],
-    'p_value': [p_value]
-})
-
-# Save to CSV
-result_df.to_csv('pearson_result.csv', index=False)
-
-```
-
-
-## Average Salary by Title 
-```
-#Calculate Average Salary by Title
-
-Salary_By_Title = df.groupby('job_title').agg(
-    AVG_Salary = ('salary', 'mean'),
-)
-
-Salary_By_Title
-```
 ![AVG_Salary_by_title](https://github.com/michael-5196/Data_Science_Salaries_Project/assets/131683141/6f7c1c6d-c1a8-43cf-88a8-f4f97b86d617)
 
 ## Sort and Save to CSV for Tableau
