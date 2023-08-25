@@ -2,6 +2,8 @@
 ## LSTM Prediction and Dashboard (Colab & Tableau)
 Tools: Python, Tableau, PANDAS, SciPy, Tensorflow Keras, numpy
 
+Data: https://www.kaggle.com/datasets/harishkumardatalab/data-science-salary-2021-to-2023
+
 ## General Questions:
 How has the average salary for Data Scientists evolved from 2021 to 2023?
 Which job titles have seen the largest growth in salaries from 2021 to 2023?
@@ -27,7 +29,7 @@ Are there specific job titles or countries that have unusually high or low salar
 
 # Result in Tableau:
 ![interactive-dash](https://github.com/michael-5196/Data_Science_Salaries_Project/assets/131683141/db105e47-28c1-40ef-a170-43e943a4ca49)
-Link = "https://public.tableau.com/app/profile/michael.scott3344/viz/DataScienceSalariesDashboard_16929375239230/Dashboard1"
+Link: https://public.tableau.com/app/profile/michael.scott3344/viz/DataScienceSalariesDashboard_16929375239230/Dashboard1
 
 # How we got there: 
 
