@@ -212,7 +212,7 @@ print("Predictions saved to 'predicted_salaries.csv'")
 Our Model slowed down as we approached 200 but from the screenshot we can still see that it is learning. 
 
 # Summary
-LSTM Prediction for Data Analyst Salary: The LSTM model has predicted a salary of $85,115 for a Data Analyst for the upcoming period (presumably for 2024). This prediction is based on the past data trends and is reflective of the pattern observed in previous years.
+The LSTM model has predicted a salary of $85,115 for a Data Analyst for the upcoming period (presumably for 2024). This prediction is based on the past data trends and is reflective of the pattern observed in previous years.
 
 ### Average Salaries by Title (Descending Order): 
 By having the average salaries sorted in descending order, you can quickly identify which job titles are the most lucrative in the field of data science. The order will help stakeholders understand the hierarchy of roles in terms of remuneration.
