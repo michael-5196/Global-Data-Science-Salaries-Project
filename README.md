@@ -209,7 +209,7 @@ print("Predictions saved to 'predicted_salaries.csv'")
 ```
 ![Epochs](https://github.com/michael-5196/Data_Science_Salaries_Project/assets/131683141/5b181202-fcb1-4c01-af6b-d371374eae37)
 
-Epochs slowed down as we approached 200 but from the screenshot we can still see that it is learning. 
+Our Model slowed down as we approached 200 but from the screenshot we can still see that it is learning. 
 
 # Summary
 LSTM Prediction for Data Analyst Salary: The LSTM model has predicted a salary of $85,115 for a Data Analyst for the upcoming period (presumably for 2024). This prediction is based on the past data trends and is reflective of the pattern observed in previous years.
