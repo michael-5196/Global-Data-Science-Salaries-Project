@@ -151,6 +151,7 @@ data_with_growth_rate_by_year.isnull().sum()
 ![nulls](https://github.com/michael-5196/Global-Data-Science-Salaries-Project/assets/131683141/8d5be9f7-f07e-44a2-9a8c-5f2544c309ac)
 
 ## Dropping these null values would be unnecessary, let's impute them with the mean of the growth rate column
+(if we had more than just 3 years it might make more sense to drop for better accuracy)
 ```
 # Calculate the mean growth rate (excluding NaN values)
 mean_growth_rate = data_with_growth_rate_by_year['growth_rate'].mean()
