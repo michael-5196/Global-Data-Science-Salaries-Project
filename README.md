@@ -145,7 +145,7 @@ data_with_growth_rate_by_year = df.merge(avg_salary_by_year[['work_year', 'job_t
 
 data_with_growth_rate_by_year.to_csv(r'data_with_growth_rate_by_year.csv')
 ```
-## We did not calculate Growth Rate for 2021 (we don't have prior data), this should leave is with some nulls. Which is what we are looking for. 
+## We did not calculate Growth Rate for 2021 (we don't have prior data), this should leave us with some nulls. Which is what we are looking for. 
 ```
 data_with_growth_rate_by_year.isnull().sum()
 ```
