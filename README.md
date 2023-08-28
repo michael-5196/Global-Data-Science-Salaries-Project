@@ -26,7 +26,7 @@ Are there specific job titles or countries that have unusually high or low salar
 -Interactive Bar Graph to show the distribution of salaries for different job titles.
 
 # Result in Tableau:
-![interactive-dash](https://github.com/michael-5196/Data_Science_Salaries_Project/assets/131683141/db105e47-28c1-40ef-a170-43e943a4ca49)
+![Dash](https://github.com/michael-5196/Global-Data-Science-Salaries-Project/assets/131683141/08cff1f9-f249-4720-8d4c-ad1f37ef649f)
 Link: https://public.tableau.com/app/profile/michael.scott3344/viz/DataScienceSalariesDashboard_16929375239230/Dashboard1
 
 # How we got there: 
