@@ -14,7 +14,7 @@ Are there countries where the Data Analyst role is paid significantly higher tha
 How do salaries vary by continent or region? For example, North America vs. Europe vs. Asia.
 
 
-## Predictions:
+## Analysis:
 How do the LSTM model's predictions compare to actual salaries in subsequent years?
 
 Can the model's predictions be refined further by using additional features?
