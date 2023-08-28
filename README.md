@@ -1,6 +1,6 @@
 # Data Science Salaries Project
 ## LSTM Prediction and Dashboard (Colab & Tableau)
-Tools: Python, Tableau, PANDAS, SciPy, Tensorflow Keras, numpy
+Tools: Python, Tableau, PANDAS, Tensorflow Keras, numpy
 
 Data: https://www.kaggle.com/datasets/harishkumardatalab/data-science-salary-2021-to-2023
 
@@ -33,14 +33,13 @@ Link: https://public.tableau.com/app/profile/michael.scott3344/viz/DataScienceSa
 
 ## Install Libraries
 ```#install necessary libraries 
-pip install pandas scipy numpy tensorflow keras
+pip install pandas numpy tensorflow keras
 ```
 
 ## Read Data in and search for Null Values
 ```
 #Read data in and look for Null Values
 import pandas as pd
-import scipy.stats as stats
 
 df = pd.read_csv('Data Science Salary 2021 to 2023.csv')
 
