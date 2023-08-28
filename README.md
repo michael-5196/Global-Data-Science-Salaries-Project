@@ -46,7 +46,7 @@ df = pd.read_csv('Data Science Salary 2021 to 2023.csv')
 
 df.isnull().sum()
 ```
-![isnull1](https://github.com/michael-5196/Data_Science_Salaries_Project/assets/131683141/345506ce-c358-4d78-9f1b-75f66aa2e9d6)
+![dependencies](https://github.com/michael-5196/Global-Data-Science-Salaries-Project/assets/131683141/d02f5954-8f42-4bdd-8b1e-d61975f4c277)
 
 ## Summary Statistics
 ```
